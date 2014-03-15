@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  background: #fd0;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.wrapper  {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body > .wrapper  {
+  height: auto;
+  min-height: 100%;
+}
+
+
+.footerspace {
+  height: 64px;
+}
+
+.footer {
+    height: 64px;
+    margin-top: -64px;
+    background: #fd0;
+    text-align: center;
+}
+
+
